@@ -1,0 +1,77 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+  }
+  body {
+    background-image: url('https://raw.githubusercontent.com/mike-denton/Full-Stack-Dev-GBC/main/Full-Stack-2/Lab%207%20-%20Lab%20Test/Step%200%20-%20Starter/images/watch.png'); /* set the url to the background image in images folder */
+    background-size: 100%;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  input,
+  label {
+    display: block;
+  }
+  input {
+    width: 100%;
+    box-sizing: border-box;
+    line-height: 20px;
+    height: 48px;
+    padding: 12px;
+    border: 1px solid #adadad;
+    border-radius: 2px;
+  }
+  label {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 20px;
+    display: block;
+    margin: 0 0 5px;
+    text-align: center;
+    transition-duration: 0.3s;
+  }
+  
+  button {
+    width: 100%;
+    font-weight: bold;
+    background-color: #8872db;
+    height: 40px;
+    border: 1px solid black;
+    cursor: pointer;
+  }
+
+  button:hover{
+    background-color: #6d5cb3;
+  }
+  
+  .container {
+    background-color: lightskyblue;
+    width: 65%;
+    padding-bottom: 25px;
+    border-radius: 2%;
+    margin-top: 10%;
+    opacity: 0.75;
+  }
+
+  .container-item {
+    font-weight: bold;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 5px;
+    width: 22%;
+    opacity: 0.75;
+  }
+
+  .node{
+    font-weight: bold;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 5px;
+    width: 65.2%;
+    opacity: 0.75;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }

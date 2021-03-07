@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Ex 3</title>
+</head>
+<body>
+   
+    <div id="container">
+
+    </div>
+    <script>
+        const cont = document.querySelector('#container');
+        
+        var para = document.createElement("p");
+        var node = document.createTextNode("This is a paragraph");
+        para.appendChild(node);
+        cont.appendChild(para);
+        
+        var span = document.createElement("span");
+        var node2 = document.createTextNode("This is span");
+        span.appendChild(node2);
+        cont.appendChild(span);
+
+        var h = document.createElement("h1");
+        var node3 = document.createTextNode("This is header");
+        h.appendChild(node3);
+        cont.appendChild(h);
+    
+    </script>
+</body>
+</html>
